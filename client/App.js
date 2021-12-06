@@ -1,16 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { env } from '../client/env';
 
 export default function App() {
   const fetchUser = async (username) => {
     const response = await fetch("https://api.github.com/users/" + username,{
       headers:{
-        Authorization : "token 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"
+        Authorization : "token " + env.gitToken,
       }
     });
     const data = await response.json();
-
+    
     console.log(data);
   }
 
