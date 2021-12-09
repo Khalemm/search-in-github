@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Wesh wesh papa, ca taff dur?</Text>
+      <Text>JEAN NEYMARR</Text>
       <StatusBar style="auto" />
     </View>
   );
