@@ -1,0 +1,7 @@
+{
+    "variables" : {
+        "PORT": "4242",
+        "GITHUB_URL": "https://api.github.com/users/",
+        "GITHUB_TOKEN": "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è"
+        }
+}
